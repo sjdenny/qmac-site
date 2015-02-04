@@ -2,11 +2,12 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+url: http://qmac.physics.ox.ac.uk/docs
+title: QMAC Cluster
+subtitle: qmac.physics.ox.ac.uk
+author: Samuel Denny (Dieter Jaksch Theory Group)
 simple_search: https://www.google.com/search
+logo: QMACLogo.jpg
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -16,7 +17,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /atom.xml
+subscribe_rss: /docs/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +27,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /
+root: /docs
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public
+destination: public/docs
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
@@ -43,7 +44,7 @@ highlighter: pygments # default python pygments have been replaced by pygments.r
 
 paginate: 10          # Posts per page on the blog index
 paginate_path: "posts/:num"  # Directory base for pagination URLs eg. /posts/2/
-recent_posts: 5       # Posts in the sidebar Recent Posts section
+recent_posts: 0       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 excerpt_separator: "<!--more-->"
 
@@ -71,7 +72,7 @@ github_skip_forks: true
 
 # Twitter
 twitter_user:
-twitter_tweet_button: true
+twitter_tweet_button: false
 
 # Google +1
 google_plus_one: false
