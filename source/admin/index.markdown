@@ -16,6 +16,11 @@ Log in as user samuel, run
 {% endcodeblock %}
 and follow the instructions. This will set up the user's account, and email them with a password and a link to these pages.
 
+#### Software installation instructions ####
+
+See [here](/installation-instructions).
+
+
 #### IP ranges for the internal networks ####
 * Public IPs:
   * Frontend: 163.1.137.250/255.255.255.0 (interface em4) -- qmac.physics.ox.ac.uk
